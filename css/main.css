@@ -1,0 +1,6 @@
+#listingsTable tr:hover {
+    cursor: pointer;
+}
+.modal-dialog {
+    max-width: 1000px; 
+}
