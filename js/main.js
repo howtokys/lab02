@@ -4,7 +4,7 @@ const perPage = 10;           // Constant value: how many listings per page
 let searchName = null;        // Current search value; null means no predefined search
 
 // Base URL for our published API
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://lab01-howtokys-projects.vercel.app";
+const API_BASE_URL = "https://lab01-howtokys-projects.vercel.app";
 
 // Function: loadListingsData()
 // This function makes a fetch request to our API to obtain listings data based on
